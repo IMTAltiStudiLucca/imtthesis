@@ -1,0 +1,89 @@
+\documentclass[final,10pt]{phdimt}
+
+
+
+
+
+% list here the bibfiles you want to use
+% note that you have to add the extension since the template uses
+% biblatex and biber to compile the references
+\addbibresource{references.bib}
+\addbibresource{mainmatter/2/methods_and_methods.bib}
+
+% LaTex metadata (used in the frontmatter)
+
+\title{A Thesis to rule them All:\\An Agent Based approach}
+\author{<author>}
+\mail{<author>@imtlucca.it}
+\program{Economics, Management and Data Science}
+\coordinator{<coordinator>}
+\coordinatorinst{\IMT{}}
+\cycle{XXXI}
+\pubyear{2018}
+
+%% Uncomment the following section if you want to set PDF Metadata
+% \pdfinfo{
+% 	/Title  ()
+% 	/Creator (VSCode)
+% 	/Producer (pdfTeX)
+% 	/Author ()
+% 	/Subject (Economics)
+% 	/Keywords (mobility)
+% }
+% \pdfcatalog{
+% 	/PageMode (/UseOutlines)
+%       /OpenAction (fitbh)
+% }
+
+
+\supervisor{Prof.\ <supervisor>}
+\supervisorinst{\IMT{}}
+\cosupervisor{Prof.\ <co-supervisor>}
+\cosupervisorinst{<co-supervisor institution>}
+\tutor{<tutor>}
+\tutorinst{<tutor institution>}
+
+% Set revieweres here.
+\firstreviewer{<Reviewer 1>}
+\firstreviewerinst{<Reviewer 1 institution>}
+\secondreviewer{<Reviewer 2>}
+\secondreviewerinst{<Reviewer 2 institution>}
+\thirdreviewer{}
+\thirdreviewerinst{}
+
+\begin{document}
+
+% Let's do not cheat on line spacing
+\renewcommand\baselinestretch{1}
+\baselineskip=14pt
+
+
+\frontmatter
+
+\pagestyle{empty} % following pages do not require page numbering
+\maketitle{}
+\makereviewerspage{}
+\include{frontmatter/dedication}
+\pagestyle{plain} % numbering is shown from now on
+
+\tableofcontents
+\listoffigures
+\listoftables
+\include{frontmatter/acknowledgement}
+\include{frontmatter/vita}
+\include{frontmatter/abstract}
+
+
+\mainmatter{}
+
+\include{mainmatter/1/introduction}
+\include{mainmatter/2/methods_and_methods}
+\include{mainmatter/5/conclusion}
+
+\appendix
+\include{appendix/A/appA}
+
+\printbibliography{}
+\makecopyright{}
+
+\end{document}
