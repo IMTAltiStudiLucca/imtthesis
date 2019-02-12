@@ -57,7 +57,8 @@ hyperfigures
 % These macros are used to declare arguments needed for the
 % construction of the title page and other preamble.
 
-\def\program#1{\gdef\@program{#1}}
+\def\phdname#1{\gdef\@phdname{#1}}
+\def\curriculum#1{\gdef\@curriculum{#1}}
 \def\cycle#1{\gdef\@cycle{#1}}
 \def\pubyear#1{\gdef\@pubyear{#1}}
 \def\mail#1{\gdef\@mail{#1}}
@@ -93,10 +94,11 @@ hyperfigures
 \renewcommand{\maketitle}{%
 % \null\vfill
 \begin{center}
-    {\includegraphics[width=6cm]{backmatter/logo_imt.png} \vspace*{2cm}}\\
-    {\huge \bf \@title \par \vspace*{6em}}
-    {\large PhD Program in \@program \par \vspace*{1em}}
-    {\large \@cycle { Cycle} \par \vspace*{5em}}
+    {\vspace*{1.5em} \includegraphics[width=6cm]{backmatter/logo_imt.png} \vspace*{2cm}}\\
+    {\huge \bf \@title \par \vspace*{3em}}
+    {\large \@phdname \par \vspace*{0.5em}}
+    {\large Curriculum in \@curriculum \par \vspace*{1em}}
+    {\large \@cycle { Cycle} \par \vspace*{3em}}
     {\large \bf {By} \par \vspace*{1em}}
     {\Large \bf \href{mailto:\@mail}{\@author} \par \vspace*{1em}}
     {\large \bf \@pubyear}
