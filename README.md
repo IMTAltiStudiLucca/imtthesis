@@ -4,6 +4,10 @@
 This repository contains the IMT Lucca PhD Thesis template..
 It is an update of the template created by Alessio Botta in 2008.
 
+## Use on Overleaf
+
+To use the theme on [overleaf](https://www.overleaf.com), simple download this repo as a `*.zip` file using the `Clone or Download` Button in the upper left corner of the GitHub interface and then load the `imtthesis-master.zip` file as a new project.
+
 
 ## Issues
 
