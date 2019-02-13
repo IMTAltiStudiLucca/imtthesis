@@ -10,6 +10,8 @@ If you are not able to see the repository, you may need to ask the IT Staff to a
 ## Overleaf
 
 To use the theme on [overleaf](https://www.overleaf.com), simple download this repo as a `*.zip` file using the `Clone or Download` Button in the upper left corner of the GitHub interface and then load the `imtthesis-master.zip` file as a new project.
+Or if you have obtained this repository already as a `zip` file simply upload it as is.
+Remember to set `thesis.tex` as the main document.
 
 ## Name of the PhD Title
 
