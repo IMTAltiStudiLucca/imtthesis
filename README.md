@@ -1,15 +1,32 @@
 # IMT PhD Thesis template
 
-
-This repository contains the IMT Lucca PhD Thesis template..
+This repository contains the IMT Lucca PhD Thesis template.
 It is an update of the template created by Alessio Botta in 2008.
 
-## Use on Overleaf
+This repository can be found on the [insitutional GitHub account of IMT Luca](https://github.com/IMTAltiStudiLucca/imtthesis/edit/master/README.md), were issues and questions can be discussed and *fixes* (i.e. Pull Requests) can be applied, so that future PhD generations may not have the same problems in compiling this template.
+If you are not able to see the repository, you may need to ask the IT Staff to add your account to the [IMT GitHub Organisation](https://github.com/IMTAltiStudiLucca/).
+
+
+## Overleaf
 
 To use the theme on [overleaf](https://www.overleaf.com), simple download this repo as a `*.zip` file using the `Clone or Download` Button in the upper left corner of the GitHub interface and then load the `imtthesis-master.zip` file as a new project.
 
+## Name of the PhD Title
 
-## Issues
+The PhD title you are awarded by IMT, at the time of writing, is of the form 
+
+**PhD in Institutions, Markets and Technologies - Curriculum in |INSERT TRACK NAME|**
+
+If in doubt be sure to check with the PhD office.
+To set the title in the template you have to define the following two variables in `thesis.tex`
+
+```latex
+\phdname{PhD in Institutions, Markets and Technologies}
+\curriculum{Economics, Management and Data Science}
+```
+
+
+## Issues and Problems
 
 If you have issues with the template or want to make it better use
 GitHub's Issue and pull request system.
@@ -19,10 +36,11 @@ and it makes it easier to maintain a working copy of the template.
 
 ## The name of the School
 
-Please remember the official name of IMT is: "IMT School for Advanced Studies Lucca"
+Please remember the official name of IMT is: **"IMT School for Advanced Studies Lucca"**
 
 In order to avoid to type the name over and over again you can use the `\IMT` command
 provied in the LaTeX template which will expand to the correct name.
+
 
 
 ```
