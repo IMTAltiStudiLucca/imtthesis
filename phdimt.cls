@@ -5,7 +5,7 @@
 \ProcessOptions\relax
 \LoadClass[pdftex,a5paper]{book}
 
-% Packages and some basic initializations
+% Packages and some basic initialisation
 
 \usepackage{subfigure}
 \usepackage{graphics}
@@ -206,7 +206,7 @@ hyperfigures
 }
 
 % Page numbering
-
+\usepackage{chngcntr}
 \pagestyle{plain} % show only page numbers
 \counterwithout{figure}{chapter} % unbind figures from chapters
 \counterwithout{table}{chapter} % unbind tables from chapters
