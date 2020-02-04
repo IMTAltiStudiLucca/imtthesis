@@ -1,4 +1,6 @@
 % Author: Alessio Botta 2008
+% Luca Verginer 2019
+% Andrea Ceravolo 2020
 
 \ProvidesClass{phdimt}[]
 \DeclareOption*{\PassOptionsToClass{\CurrentOption}{book}}
@@ -94,7 +96,7 @@ hyperfigures
 \renewcommand{\maketitle}{%
 % \null\vfill
 \begin{center}
-    {\vspace*{1.5em} \includegraphics[width=6cm]{backmatter/logo_imt.png} \vspace*{2cm}}\\
+%    {\vspace*{1.5em} \includegraphics[width=6cm]{backmatter/logo_imt.png} \vspace*{2cm}}\\
     {\huge \bf \@title \par \vspace*{3em}}
     {\large \@phdname \par \vspace*{0.5em}}
     {\large Curriculum in \@curriculum \par \vspace*{1em}}
@@ -185,7 +187,7 @@ hyperfigures
 \insertblankpage
 \null\vfill
 \begin{center}
-    \href{http://creativecommons.org/licenses/by-nc-sa/2.5/it/}{\includegraphics[width=2in]{backmatter/cc_logo}}
+    \href{https://creativecommons.org/licenses/by-nc-sa/3.0/it/}{\includegraphics[width=2in]{backmatter/by-nc-sa.png}}
 \end{center}
 \begin{center}
     \includegraphics[width=0.3in]{backmatter/by.png}
@@ -195,12 +197,16 @@ hyperfigures
 
 \begin{quote}
     \small{
-    Unless otherwise expressly stated, all original material of whatever nature created by \@author \ and included in this thesis, is licensed under a \href{http://creativecommons.org/licenses/by-nc-sa/2.5/it/}{Creative Commons Attribution Noncommercial Share Alike 2.5 Italy License}.
+Unless otherwise expressly stated, all original material of whatever nature created by \@author \ and included in this thesis, is licensed under a \href{https://creativecommons.org/licenses/by-nc-sa/3.0/it/}{Creative Commons Attribution Noncommercial Share Alike 3.0 Italy License}.
 
-    Check \href{http://creativecommons.org/licenses/by-nc-sa/2.5/it/}{creativecommons.org/licenses/by-nc-sa/2.5/it/} for the legal code of the full license.
+Check on Creative Commons site:
 
-    \href{mailto:\@mail}{Ask the author} about other uses.
-    }
+\href{https://creativecommons.org/licenses/by-nc-sa/3.0/it/legalcode/}{https://creativecommons.org/licenses/by-nc-sa/3.0/it/legalcode/}
+
+\href{https://creativecommons.org/licenses/by-nc-sa/3.0/it/deed.en}{https://creativecommons.org/licenses/by-nc-sa/3.0/it/deed.en}}
+
+\href{mailto:\@mail}{Ask the author} about other uses.
+
 \end{quote}
 
 }
