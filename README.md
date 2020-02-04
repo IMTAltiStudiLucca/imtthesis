@@ -3,9 +3,11 @@
 This repository contains the IMT Lucca PhD Thesis template.
 It is an update of the template created by Alessio Botta in 2008.
 
-This repository can be found on the [insitutional GitHub account of IMT Luca](https://github.com/IMTAltiStudiLucca/imtthesis/edit/master/README.md), were issues and questions can be discussed and *fixes* (i.e. Pull Requests) can be applied, so that future PhD generations may not have the same problems in compiling this template.
+This repository can be found on the [insitutional GitHub account of IMT Lucca](https://github.com/IMTAltiStudiLucca/imtthesis/edit/master/README.md), were issues and questions can be discussed and *fixes* (i.e. Pull Requests) can be applied, so that future PhD generations may not have the same problems in compiling this template.
 If you are not able to see the repository, you may need to ask the IT Staff to add your account to the [IMT GitHub Organisation](https://github.com/IMTAltiStudiLucca/).
 
+## Updates
+04/02/2020: Updated for compliance with Creative Commons 3.0.
 
 ## Overleaf
 
