@@ -201,11 +201,6 @@ hyperfigures
 \begin{center}
     \href{https://creativecommons.org/licenses/by-nc-sa/3.0/it/}{\includegraphics[width=2in]{backmatter/by-nc-sa.png}}
 \end{center}
-\begin{center}
-    \includegraphics[width=0.3in]{backmatter/by.png}
-    \includegraphics[width=0.3in]{backmatter/nc.png}
-    \includegraphics[width=0.3in]{backmatter/sa.png}
-\end{center}
 
 \begin{quote}
     \small{
