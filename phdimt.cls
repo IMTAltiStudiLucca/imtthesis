@@ -48,6 +48,10 @@ hyperfigures
 \usepackage[pdftex]{graphicx}
 \pdfcompresslevel=9
 
+% Compile using the PDF/A-2B standard
+\usepackage[a-2b]{pdfx}
+\usepackage{colorprofiles}
+
 % A5 settings
 
 \pdfpageheight=210mm
